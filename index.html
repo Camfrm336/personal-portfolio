@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="left-items">
+        <h1 id="logo-text" class="logo-text">CJMC</h1>
+      </div>
+      <nav class="right-items">
+        <ul>
+          <a href="#about-scroll">About Me</a>
+          <a href="#project-scroll">Projects</a>
+          <a href="" onclick="return false;">Resume</a>
+          <a href="#contact-scroll">Contact</a>
+        </ul>
+      </nav>
+    </div>
+    <div class="greeting-container">
+      <div class="introduction-container reveal fade-bottom">
+        <h2 class="introduction-header">Hello!</h2>
+        <h1 class="introduction-name">My Name is Cameron McMaster</h1>
+        <p class="introduction-text">
+          I'm a full-time college student and part-time self taught freelance
+          front-end web developer. I have passion for development and love being
+          able to bring your web design ideas to life.
+        </p>
+      </div>
+    </div>
+    <div id="about-scroll"></div>
+    <div class="about-container-big">
+      <div class="about-container reveal fade-bottom">
+        <div class="about-info">
+          <h1 class="about-header">About Me</h1>
+          <p class="about-text">
+            I'm Cameron McMaster, a second-year student majoring in Computer
+            Science at North Carolina A&T State University. I have always been
+            intrigued with what goes into the creation of a website, so I
+            decided to do my own research and begin teaching myself.
+          </p>
+        </div>
+        <div class="about-right">
+          <img
+            class="about-image fade-right"
+            src="portfolio-images/self.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div id="project-scroll"></div>
+    <div class="project-container reveal fade-bottom">
+      <div class="project-info">
+        <h1 class="project-header">My Projects</h1>
+        <p class="project-text">
+          In my free time I like to practice my skills while doing things I
+          enjoy so here's a slideshow showing a few of my favorite projects.
+          Click them and try them if you would like!
+        </p>
+      </div>
+      <div class="project-right">
+        <a href="https://camfrm336.github.io/calculator/" target="_blank"
+          ><img class="mySlides" src="portfolio-images/calculator-ss.png"
+        /></a>
+        <a href="https://camfrm336.github.io/etch-a-sketch/" target="_blank"
+          ><img class="mySlides" src="portfolio-images/etch-a-sketch-ss.png"
+        /></a>
+        <a href="https://camfrm336.github.io/library/" target="_blank"
+          ><img class="mySlides" src="portfolio-images/library-ss.png"
+        /></a>
+      </div>
+    </div>
+
+    <div class="contact-container reveal fade-bottom">
+      <div class="">
+        <div class="form-container-big">
+          <div class="">
+            <h1 class="contact-header">Contact Me</h1>
+            <p class="contact-text">Fill out the form to send me a message.</p>
+            <p class="contact-text-small">
+              I'm openly looking for freelance work so you can message me and
+              I'll get back to you. Or if you would just like to send a message
+              or leave some feedback about my site thats fine too!
+            </p>
+          </div>
+          <div class="form-container">
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              id="form"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="6e8862b2-0fa5-43ff-9f4d-461e4ee8da08"
+              />
+              <input
+                type="hidden"
+                name="subject"
+                value="New Submission from Web3Forms"
+              />
+              <input
+                type="checkbox"
+                name="botcheck"
+                id=""
+                style="display: none"
+              />
+
+              <div class="mb-6">
+                <label
+                  for="name"
+                  class="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="John Doe"
+                  required
+                  class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  for="email"
+                  class="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="you@company.com"
+                  required
+                  class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  for="phone"
+                  class="text-sm text-gray-600 dark:text-gray-400"
+                  >Phone Number</label
+                >
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="+1 (555) 1234-567"
+                  required
+                  class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  for="message"
+                  class="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                  >Your Message</label
+                >
+
+                <textarea
+                  rows="5"
+                  name="message"
+                  id="message"
+                  placeholder="Your Message"
+                  class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                  required
+                ></textarea>
+              </div>
+              <div class="mb-6">
+                <button type="submit">Send Message</button>
+              </div>
+              <p class="text-base text-center text-gray-400" id="result"></p>
+            </form>
+            <div id="contact-scroll"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <button id="scrollToTopBtn">&uarr;</button>
+    </footer>
+    <div>...</div>
+  </body>
+  <script src="main.js"></script>
+</html>
