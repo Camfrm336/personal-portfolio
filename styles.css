@@ -5,6 +5,7 @@
   --font-size-big: 50px;
   --font-size-small: 25px;
   font-family: "Ubuntu Condensed", sans-serif;
+  overflow-x: hidden;
 }
 * {
   color: white;
@@ -25,8 +26,6 @@ body {
     rgba(40, 39, 39, 1) 88%
   );
   width: 100vw;
-  height: 300vh;
-  overflow-x: hidden;
 }
 .header-container {
   display: flex;
@@ -392,6 +391,7 @@ footer {
     width: 300px;
   }
   #about-scroll {
+    padding: 10vh;
   }
   .skills-container {
     display: flex;
