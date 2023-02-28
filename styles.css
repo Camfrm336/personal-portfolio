@@ -398,10 +398,14 @@ footer {
     flex-direction: column;
     width: 100px;
     margin-left: 28vw;
+    margin-top: 40vh;
   }
   .skills-icons {
     display: flex;
     width: 100px;
+  }
+  #skills-scroll {
+    padding-top: 1vh;
   }
   .project-container {
     display: flex;
