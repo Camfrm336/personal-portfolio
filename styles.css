@@ -25,6 +25,7 @@ body {
     rgba(0, 0, 0, 1) 0%,
     rgba(40, 39, 39, 1) 88%
   );
+
   width: 100vw;
 }
 .header-container {
@@ -71,6 +72,7 @@ a {
   text-decoration: none;
   color: var(--main-text-color);
   font-size: 1.3rem;
+  cursor: pointer;
 }
 
 .greeting-container {
@@ -167,6 +169,12 @@ a {
 }
 .skills-text {
   font-size: var(--font-size-small);
+}
+#skills-scroll {
+  padding-top: 20vh;
+}
+
+#skills-logos {
 }
 
 #project-scroll {
@@ -398,15 +406,15 @@ footer {
     flex-direction: column;
     width: 100px;
     margin-left: 28vw;
-    margin-top: 40vh;
+    margin-top: 65vh;
   }
-  .skills-icons {
-    display: flex;
-    width: 100px;
+  #skills-logos {
+    width: 330px;
   }
   #skills-scroll {
-    padding-top: 1vh;
+    padding-top: 20vh;
   }
+
   .project-container {
     display: flex;
     flex-direction: column;
