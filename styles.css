@@ -1,9 +1,9 @@
 :root {
   --header-text-color: #3e8de3;
   --main-text-color: white;
-  --font-size-medium: 40px;
-  --font-size-big: 50px;
-  --font-size-small: 25px;
+  --font-size-medium: clamp(1rem, 2rem, 3rem);
+  --font-size-big: clamp(1.5rem, 3rem, 4rem);
+  --font-size-small: clamp(0.5rem, 1rem, 2rem);
   font-family: "Ubuntu Condensed", sans-serif;
   overflow-x: hidden;
 }
@@ -71,7 +71,7 @@ ul {
 a {
   text-decoration: none;
   color: var(--main-text-color);
-  font-size: 1.3rem;
+  font-size: var(--font-size-small);
   cursor: pointer;
 }
 
@@ -174,12 +174,6 @@ a {
   padding-top: 20vh;
 }
 
-#skills-logos {
-}
-
-#project-scroll {
-}
-
 .project-container {
   display: flex;
   flex-direction: row;
@@ -274,9 +268,6 @@ footer {
   margin-bottom: 2vh;
   bottom: 3vh;
   right: 0;
-}
-
-#contact-scroll {
 }
 
 #scrollToTopBtn {
